@@ -1,0 +1,141 @@
+*{
+    .bebas-neue-regular {
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  padding: 0;
+  margin: 0;
+
+}
+
+}
+
+body {
+    background-image: url(background.jpg);
+}
+
+.logo-container{
+    display: flex;
+    justify-content: space-between;
+    /* margin-top: 3rem;
+    margin-right: 2rem; */
+}
+.Netflix-logo img {
+    height: 48px;
+    width: 148px;
+    margin-top: 2rem;
+    margin-left: 3rem;
+    display: flex;
+    
+}
+.right-button button{
+    border-radius: 20%;
+    background-color: #ffffff;
+    height: 2rem;
+    width: 4rem;
+    margin-top: 2rem;
+    margin-right: 3rem;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding-top: 0.4rem;
+    padding-bottom: 1rem;
+    cursor: pointer;
+    
+}
+
+.mid-bar{
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    margin-top: 3rem;
+    opacity: 0.8;
+    gap: 1rem;
+}
+.button-container {
+    display: flex;
+    width: fit-content;
+    
+    
+
+}
+.buttons {
+    background-color: #000000;
+    color: #ffffff;
+    font-weight: 800;
+    border-radius: 5rem;
+    height: 2.7rem;
+    width: 20rem;
+    cursor: pointer;
+    padding: 10px 20px;
+    margin-right: 1rem;
+    opacity: 0.7;
+}
+
+.buttons:hover{
+    opacity: 1;
+
+}
+
+.image {
+    margin-top: 3rem;
+    margin-left: 5rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 2rem;
+    padding: 2rem;
+   
+    
+}
+
+.outer-content {
+    display: flex;
+    border: 2px solid #000000;
+    border-radius: 30px;
+    height: 400px;
+    width: 700px;
+    margin-left: 7rem;
+    margin-top: 2rem;    
+    background-color: #000000;
+    
+}
+.inner-content  {
+    color: #ffffff;
+    font-weight: 500;
+    margin-left: 4rem;
+    padding: 2rem;
+    margin-top: 1rem;
+    opacity: 0.4;
+    
+    
+}
+.inner-content:hover{
+    opacity: 0.9;
+}
+@media (max-width: 768px) {
+    .logo-container {
+        flex-direction: column;
+        gap: 1rem;
+        padding: 1.5rem;
+    }
+
+    .mid-bar {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .buttons {
+        width: 80%;
+    }
+
+    .image {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .outer-content {
+        width: 90%;
+    }
+}
